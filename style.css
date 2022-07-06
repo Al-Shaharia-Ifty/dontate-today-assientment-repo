@@ -94,8 +94,8 @@ body {
 .donate-plan {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 75%;
+  margin: auto;
 }
 
 .donate-plan h2 {
