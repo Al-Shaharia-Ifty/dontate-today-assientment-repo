@@ -95,6 +95,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 75%;
 }
 
 .donate-plan h2 {
@@ -105,10 +106,11 @@ body {
 }
 
 .donate-plan p {
+  display: flex;
+  justify-content: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: justify;
   color: #707070;
 }
 
@@ -135,15 +137,44 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
+
 .font {
   font-size: 50px;
   text-align: start;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+  padding: 50px;
+  background-color: #fff4d6;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.email {
+  border: 0;
+  background-color: #d9d9d9;
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+}
+
+.submit {
+  border: 0;
+  background-color: #ff5959;
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px;
+  color: white;
 }
 
 .footer {
   background-color: #0b0d17;
   text-align: center;
   padding: 10px;
+  margin-top: 130px;
 }
 
 .footer h2 {
