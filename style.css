@@ -135,3 +135,26 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
+
+.footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer h2 {
+  font-family: "Lato", sans-serif;
+  font-family: "The Nautigal", cursive;
+  color: #ff5959;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0;
+}
+.footer p {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
